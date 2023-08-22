@@ -10,5 +10,4 @@ phases:
       - echo Build completed successfully
 artifacts:
   files:
-    - order-service.jar
-  discard-paths: yes
+    - buildspec.yaml
