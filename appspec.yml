@@ -3,6 +3,6 @@ os: linux
 
 hooks:
   ApplicationStop:
-      runas: root
+     
   AfterInstall:
-      runas: root
+      
