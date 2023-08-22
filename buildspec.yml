@@ -10,4 +10,4 @@ phases:
       - echo Build completed successfully
 artifacts:
   files:
-    - buildspec.yml
+    - $CODEBUILD_SRC_DIR/order-service.jar
