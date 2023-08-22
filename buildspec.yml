@@ -10,5 +10,5 @@ phases:
       - echo Build completed successfully
 artifacts:
   files:
-    - target/s3://codepipeline-ap-south-1-513521848844/demo-orderservice/SourceArti/
-  discard-paths: yes
+    - s3://codepipeline-ap-south-1-513521848844/demo-orderservice/SourceArti/
+  discard-paths: no
