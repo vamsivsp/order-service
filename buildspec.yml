@@ -4,11 +4,11 @@ phases:
   build:
     commands:
       - echo Entered the build phase...
-      - mvn clean 
+      - mvn clean install
   post_build:
     commands:
       - echo Build completed successfully
 artifacts:
   files:
-    - buildspec.yml
-    - appspec.yml
+    - target/order-service.jar
+  discard-paths: yes
