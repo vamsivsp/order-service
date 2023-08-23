@@ -1,8 +1,7 @@
 version: 0.0
 os: linux
 
-hooks:
-  ApplicationStop:
-     
-  AfterInstall:
+files:
+  - source: $CODEBUILD_SRC_DIR/*.jar
+    destination: /var/www/html/
       
