@@ -2,6 +2,6 @@ version: 0.0
 os: linux
 
 files:
-  - source: $CODEBUILD_SRC_DIR/*.jar
+  - source: order-service.jar
     destination: /var/www/html/
       
